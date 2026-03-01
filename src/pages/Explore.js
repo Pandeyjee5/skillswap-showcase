@@ -1,6 +1,5 @@
 import React, { useState } from 'react'; // Added useState
 import { Link } from 'react-router-dom';
-
 const Explore = () => {
   const [searchQuery, setSearchQuery] = useState(""); // Tracks what you type
   const categories = ['All', 'Tech', 'Music', 'Art', 'Language', 'Business'];
